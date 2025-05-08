@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>回到最开始按钮示例</title>
+    <style>
+        /* 样式：回到顶部按钮 */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* 默认隐藏按钮 */
+        }
+
+        .back-to-top:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>西班牙语课文</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 1em;
+      line-height: 1.6;
+      background-color: #fff;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .toc {
+      margin-bottom: 2em;
+      padding: 1em;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+    }
+    .chapter {
+      margin-bottom: 2em;
+    }
+    .line {
+      margin: 0.5em 0;
+    }
+    .es {
+      font-weight: bold;
+    }
+    .zh {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>西班牙语课文目录</h1>
+  <div class="toc">
+    <ul>
+      <li><a href="#chapter1">第1课：Introducción 介绍</a></li>
+      <li><a href="#chapter2">第2课：El Día de la Tierra 地球日</a></li>
+      <li><a href="#chapter3">第3课：La familia 家庭</a></li>
+      <li><a href="#chapter4">第4课：El Día del Niño 儿童节</a></li>
+      <li><a href="#chapter5">第5课：Cinco de Mayo 五月五日</a></li>
+      <li><a href="#chapter6">第6课：El estrés 压力</a></li>
+      <li><a href="#chapter7">第7课：El Día de las Madres 母亲节</a></li>
+      <li><a href="#chapter8">第8课：La importancia de los lenguajes 语言的重要性</a></li>
+      <li><a href="#chapter9">第9课：Una realidad del inmigrante 移民的现实</a></li>
+      <li><a href="#chapter10">第10课：Las quinceañeras - Parte 1 十五岁女孩 - 第一部分</a></li>
+      <li><a href="#chapter11">第11课：Los desastres naturales 自然灾害</a></li>
+      <li><a href="#chapter12">第12课：Las quinceañeras - Parte 2 十五岁女孩 - 第二部分</a></li>
+    </ul>
+  </div>
+、
+<div class="chapter" id="chapter1">
+  <h2>第1课：Introducción 介绍</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Bienvenidos a ¡Cuéntame!, un pódcast para la adquisición del español.</span><br><span class="zh">大家好！欢迎来到《Cuéntame》，一个用于学习西班牙语的播客节目。</span></div>
+
+  <div class="line"><span class="es">Me llamo Marta, y soy maestra de español en Wisconsin, en Estados Unidos.</span><br><span class="zh">我叫玛尔塔，是美国威斯康星州的一名西班牙语教师。</span></div>
+
+  <div class="line"><span class="es">Soy mexicana, mi país es México.</span><br><span class="zh">我是墨西哥人，我的国家是墨西哥。</span></div>
+
+  <div class="line"><span class="es">Soy de México, específicamente del bonito estado de Michoacán, en la costa del océano Pacífico.</span><br><span class="zh">我来自墨西哥，具体来说是太平洋沿岸风景优美的米却肯州。</span></div>
+
+  <div class="line"><span class="es">¡Cuéntame! es un pódcast semanal especialmente para estudiantes de español básico e intermedio.</span><br><span class="zh">《Cuéntame》是一个每周更新的播客节目，专门为初学和中级西班牙语的学生打造。</span></div>
+
+  <div class="line"><span class="es">En mi pódcast, voy a hablar en español comprensible, en dos niveles.</span><br><span class="zh">在我的播客节目中，我会用两种程度的可理解的西班牙语来讲话。</span></div>
+
+  <div class="line"><span class="es">Los episodios tienen dos versiones.</span><br><span class="zh">每集都有两个版本。</span></div>
+
+  <div class="line"><span class="es">En la versión número uno voy a hablar en español no muy rápido.</span><br><span class="zh">在第一个版本中，我会用不太快的语速讲西班牙语。</span></div>
+
+  <div class="line"><span class="es">También voy a usar un poco de inglés en partes complicadas para facilitar la comprensión.</span><br><span class="zh">同时，我会在复杂的地方稍微用一点英语来帮助理解。</span></div>
+
+  <div class="line"><span class="es">En la versión número dos voy a hablar más rápido; a velocidad normal, y no voy a usar inglés.</span><br><span class="zh">在第二个版本中，我会用正常语速来说，并且不会使用英语。</span></div>
+
+  <div class="line"><span class="es">¡Es un buen reto!</span><br><span class="zh">这是一个很好的挑战。</span></div>
+
+  <div class="line"><span class="es">El pódcast se llama ¡Cuéntame!, que quiere decir en inglés tell me!</span><br><span class="zh">这个播客叫做《Cuéntame》，在英语中就是“告诉我”的意思。</span></div>
+
+  <div class="line"><span class="es">Por eso, voy a contarles historias interesantes y voy a hablar de temas diferentes.</span><br><span class="zh">所以，我会讲一些有趣的故事，并谈论不同的主题。</span></div>
+
+  <div class="line"><span class="es">Por ejemplo, voy a hablar de familia, voy a hablar de trabajo, voy a hablar de animales domésticos, mi tema favorito, y también voy a hablar de la escuela.</span><br><span class="zh">例如，我会谈论家庭、工作、宠物（我最喜欢的话题），还会谈论学校。</span></div>
+
+  <div class="line"><span class="es">Voy a hablar de temas diversos de la vida normal de las personas.</span><br><span class="zh">我会谈论人们日常生活的各种主题。</span></div>
+
+  <div class="line"><span class="es">Los episodios de ¡Cuéntame! son cortos, de 4 a 7 minutos.</span><br><span class="zh">《Cuéntame》的每集时长较短，为4到7分钟。</span></div>
+
+  <div class="line"><span class="es">No son episodios largos porque regularmente las personas no tienen mucho tiempo para escuchar pódcast.</span><br><span class="zh">因为通常人们没有太多时间来听播客。</span></div>
+
+  <div class="line"><span class="es">Espero I hope que me acompañen en esta aventura.</span><br><span class="zh">我希望你们能陪我一起踏上这段冒险之旅。</span></div>
+
+  <div class="line"><span class="es">Espero que escuchen mi pódcast regularmente para mejorar su comprensión del español.</span><br><span class="zh">希望你们能定期收听我的播客，以提高你们的西班牙语理解能力。</span></div>
+
+  <div class="line"><span class="es">¡Hasta pronto!</span><br><span class="zh">我们下次见！</span></div>
+</div>
+
+<div class="chapter" id="chapter2">
+  <h2>第2课：El Día de la Tierra 地球日</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Soy Marta.</span><br><span class="zh">你好你好！我是玛尔塔。</span></div>
+  <div class="line"><span class="es">Bienvenidos a Cuéntame, un pódcast para la adquisición del español.</span><br><span class="zh">欢迎收听“Cuéntame”播客，这是一个帮助学习西班牙语的节目。</span></div>
+  <div class="line"><span class="es">Hoy es un día muy especial.</span><br><span class="zh">今天是一个非常特别的日子。</span></div>
+  <div class="line"><span class="es">Hoy es jueves 22 de abril, y es un día de celebración global.</span><br><span class="zh">今天是4月22日，星期四，是一个全球性的庆祝日。</span></div>
+  <div class="line"><span class="es">Es un día muy importante porque, en muchos países celebramos el Día de la Tierra.</span><br><span class="zh">这是一个非常重要的日子，因为在许多国家我们庆祝地球日。</span></div>
+  <div class="line"><span class="es">La Tierra es nuestro planeta.</span><br><span class="zh">地球是我们的星球。</span></div>
+  <div class="line"><span class="es">El planeta Tierra, en inglés, es planet Earth.</span><br><span class="zh">地球这个词，在英语中是 planet Earth。</span></div>
+  <div class="line"><span class="es">Hoy, celebramos el Día de la Tierra con el objetivo de crear conciencia en las personas para cuidar el planeta.</span><br><span class="zh">今天我们庆祝地球日，是为了让人们意识到要保护地球。</span></div>
+  <div class="line"><span class="es">La Tierra es la casa de todas las personas, es el hogar de todas las personas;</span><br><span class="zh">地球是所有人的家，是我们共同的家；</span></div>
+  <div class="line"><span class="es">pero, no es el hogar exclusivo de las personas.</span><br><span class="zh">但是，它并不只是人类的家。</span></div>
+  <div class="line"><span class="es">También es el hogar de todos los animales y todas las plantas que existen.</span><br><span class="zh">它也是所有动物和植物的家。</span></div>
+  <div class="line"><span class="es">Es la obligación de los humanos cuidar y preservar el planeta para vivir bien.</span><br><span class="zh">人类有责任保护和维护地球，才能好好生活。</span></div>
+  <div class="line"><span class="es">El problema es que los humanos, las personas, no cuidamos bien del medio ambiente.</span><br><span class="zh">问题是我们人类没有好好地保护环境。</span></div>
+  <div class="line"><span class="es">Causamos muchos problemas a los animales y las plantas del planeta.</span><br><span class="zh">我们给地球上的动植物带来了很多问题。</span></div>
+  <div class="line"><span class="es">Los humanos causamos polución.</span><br><span class="zh">人类造成了污染。</span></div>
+  <div class="line"><span class="es">¡La polución es un problema muy serio para la Tierra!</span><br><span class="zh">污染对地球来说是个非常严重的问题！</span></div>
+  <div class="line"><span class="es">La polución, o la contaminación, es un problema terrible para el planeta y obvio, ¡también es un problema para las personas!</span><br><span class="zh">污染，也叫做“contaminación”，是地球的严重问题，显然对人类本身也是一个问题！</span></div>
+  <div class="line"><span class="es">¡Qué ridículo!</span><br><span class="zh">多么可笑啊！</span></div>
+  <div class="line"><span class="es">Hoy, en el Día de la Tierra, celebramos para crear conciencia del problema.</span><br><span class="zh">今天，在地球日这一天，我们庆祝是为了唤起人们对这些问题的意识。</span></div>
+  <div class="line"><span class="es">Los invito a cuidar el planeta; a cuidar el agua; es necesario cuidar la energía.</span><br><span class="zh">邀请你们一起保护地球；保护水资源；我们也要节约能源。</span></div>
+  <div class="line"><span class="es">Es necesario cuidar el aire que respiramos.</span><br><span class="zh">我们必须保护我们呼吸的空气。</span></div>
+  <div class="line"><span class="es">Los invito a reducir el uso del plástico.</span><br><span class="zh">我邀请大家减少塑料的使用。</span></div>
+  <div class="line"><span class="es">El plástico es como cáncer para el planeta.</span><br><span class="zh">塑料就像是地球的癌症。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Qué propones para generar el cambio?</span><br><span class="zh">那你呢？你有什么建议来推动改变？</span></div>
+  <div class="line"><span class="es">¿Tienes ideas para inspirar a otras personas?</span><br><span class="zh">你有办法去激励其他人吗？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy.</span><br><span class="zh">好了，今天就到这里。</span></div>
+  <div class="line"><span class="es">¡Gracias por celebrar conmigo el Día de la Tierra!</span><br><span class="zh">谢谢你和我一起庆祝地球日！</span></div>
+  <div class="line"><span class="es">¡Hasta pronto!</span><br><span class="zh">再见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter3">
+  <h2>第3课：La familia 家庭</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Bienvenidos a Cuéntame, un pódcast para la adquisición del español.</span><br><span class="zh">你好你好！欢迎收听《Cuéntame》，一个帮助学习西班牙语的播客节目。</span></div>
+  <div class="line"><span class="es">Me llamo Marta y hoy voy a hablarles de un tema muy importante.</span><br><span class="zh">我叫玛尔塔，今天我要和大家谈一个非常重要的话题。</span></div>
+  <div class="line"><span class="es">Hoy voy a hablarles de la familia.</span><br><span class="zh">今天我要谈谈“家庭”。</span></div>
+  <div class="line"><span class="es">Mi familia es una familia mediana.</span><br><span class="zh">我的家庭是一个中等规模的家庭。</span></div>
+  <div class="line"><span class="es">Mi familia no es una familia muy grande.</span><br><span class="zh">我的家庭不是特别大。</span></div>
+  <div class="line"><span class="es">Hay cinco personas en mi familia: primero, mi mamá y mi papá.</span><br><span class="zh">我家有五口人：首先是我的妈妈和爸爸。</span></div>
+  <div class="line"><span class="es">Mi mamá se llama Marta, como yo.</span><br><span class="zh">我妈妈叫玛尔塔，和我同名。</span></div>
+  <div class="line"><span class="es">Mi papá se llama Antonio.</span><br><span class="zh">我爸爸叫安东尼奥。</span></div>
+  <div class="line"><span class="es">Mis padres tienen 3 hijos.</span><br><span class="zh">我父母有三个孩子。</span></div>
+  <div class="line"><span class="es">Mi hermana Isaura es la hija mayor.</span><br><span class="zh">我姐姐伊萨乌拉是最大的女儿。</span></div>
+  <div class="line"><span class="es">Yo soy la segunda hija de mis padres.</span><br><span class="zh">我是我父母的第二个女儿。</span></div>
+  <div class="line"><span class="es">Finalmente, mi hermano se llama Antonio, como mi papá.</span><br><span class="zh">最后，我的弟弟也叫安东尼奥，和我爸爸一样。</span></div>
+  <div class="line"><span class="es">Mi hermano Antonio es el hijo menor, es el más joven.</span><br><span class="zh">我弟弟安东尼奥是最小的孩子，他是最年轻的。</span></div>
+  <div class="line"><span class="es">Mi papá es médico, o doctor.</span><br><span class="zh">我爸爸是内科医生，或者说是医生。</span></div>
+  <div class="line"><span class="es">Mi mamá es dentista.</span><br><span class="zh">我妈妈是牙医。</span></div>
+  <div class="line"><span class="es">Mi hermana Isaura es dentista también, como mi mamá.</span><br><span class="zh">我姐姐伊萨乌拉也是牙医，和我妈妈一样。</span></div>
+  <div class="line"><span class="es">Mi hermano Antonio también es dentista.</span><br><span class="zh">我弟弟安东尼奥也是牙医。</span></div>
+  <div class="line"><span class="es">Pero, yo no.</span><br><span class="zh">但是我不是。</span></div>
+  <div class="line"><span class="es">Yo soy maestra de español en una escuela preparatoria en el estado de WI.</span><br><span class="zh">我是一位西班牙语老师，在威斯康星州的一所高中任教。</span></div>
+  <div class="line"><span class="es">En mi familia, todos nos llevamos bien.</span><br><span class="zh">我们家里的人都相处得很好。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Tienes una familia grande?</span><br><span class="zh">那你呢？你有一个大家庭吗？</span></div>
+  <div class="line"><span class="es">¿Tu familia es mediana, como mi familia? O, ¿tu familia es pequeña?</span><br><span class="zh">你的家庭是中等规模的吗，还是很小？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy.</span><br><span class="zh">好啦，今天就到这里。</span></div>
+  <div class="line"><span class="es">¡Hasta pronto!</span><br><span class="zh">我们下次再见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter4">
+  <h2>第4课：El Día del Niño 儿童节</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Bienvenidos a Cuéntame, un pódcast para la adquisición del español.</span><br><span class="zh">你好你好！欢迎收听《Cuéntame》，一个帮助学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Me llamo Marta, y hoy voy a hablar de una celebración muy especial.</span><br><span class="zh">我叫玛尔塔，今天我要讲一个非常特别的节日。</span></div>
+  <div class="line"><span class="es">El Día del Niño.</span><br><span class="zh">儿童节。</span></div>
+  <div class="line"><span class="es">En muchos países el Día del Niño se celebra en noviembre, específicamente el 20 de noviembre.</span><br><span class="zh">在很多国家，儿童节是在11月庆祝的，具体是11月20日。</span></div>
+  <div class="line"><span class="es">Pero en mi país, México, el Día del Niño se celebra en una fecha diferente.</span><br><span class="zh">但在我的国家——墨西哥，儿童节是在另一个日期庆祝的。</span></div>
+  <div class="line"><span class="es">Es en una fecha diferente, porque en noviembre hay conflicto con otras importantes celebraciones mexicanas.</span><br><span class="zh">这是因为11月有其他重要的墨西哥节日，日期会冲突。</span></div>
+  <div class="line"><span class="es">Por eso, en México, el Día del Niño se celebra el 30 de abril.</span><br><span class="zh">因此，在墨西哥，儿童节是在4月30日庆祝的。</span></div>
+  <div class="line"><span class="es">¡Y mañana es treinta de abril!</span><br><span class="zh">而明天就是4月30日！</span></div>
+  <div class="line"><span class="es">Mañana celebramos el Día del Niño.</span><br><span class="zh">明天我们要庆祝儿童节。</span></div>
+  <div class="line"><span class="es">En la celebración, los niños reciben regalos o presentes, y en las escuelas hay actividades divertidas.</span><br><span class="zh">在这个节日里，孩子们会收到礼物，学校里也会有很多有趣的活动。</span></div>
+  <div class="line"><span class="es">Pero el motivo de la celebración es más profundo.</span><br><span class="zh">但这个节日的意义更加深远。</span></div>
+  <div class="line"><span class="es">La celebración se originó para honrar a los niños víctimas de la Primera Guerra Mundial.</span><br><span class="zh">这个节日起源于纪念第一次世界大战中的儿童受害者。</span></div>
+  <div class="line"><span class="es">El Día del Niño es una oportunidad para recordar que los niños son las personas más afectadas por las crisis y los problemas del mundo.</span><br><span class="zh">儿童节提醒我们，孩子们是各种危机中最易受影响的人群。</span></div>
+  <div class="line"><span class="es">También, las Naciones Unidas declara que el Día del Niño es para recordar que los niños también tienen derechos y necesidades.</span><br><span class="zh">联合国指出，儿童节是为了提醒我们孩子也有权利和需求。</span></div>
+  <div class="line"><span class="es">Hay muchos derechos de los niños, pero hay 8 derechos fundamentales:</span><br><span class="zh">孩子有很多权利，但有8项是基本权利：</span></div>
+  <div class="line"><span class="es">#1 el derecho a la vida;</span><br><span class="zh">1. 生命权；</span></div>
+  <div class="line"><span class="es">#2 el derecho a la educación;</span><br><span class="zh">2. 受教育权；</span></div>
+  <div class="line"><span class="es">#3 el derecho a la alimentación,</span><br><span class="zh">3. 获得食物的权利；</span></div>
+  <div class="line"><span class="es">#4 el derecho a la salud,</span><br><span class="zh">4. 健康权；</span></div>
+  <div class="line"><span class="es">#5 el derecho al agua limpia,</span><br><span class="zh">5. 清洁饮水权；</span></div>
+  <div class="line"><span class="es">#6 el derecho a la identidad,</span><br><span class="zh">6. 身份权；</span></div>
+  <div class="line"><span class="es">#7 el derecho a la libertad,</span><br><span class="zh">7. 自由权；</span></div>
+  <div class="line"><span class="es">y #8, el derecho a la protección.</span><br><span class="zh">8. 受保护权。</span></div>
+  <div class="line"><span class="es">Todos los niños tienen derecho a vivir una vida feliz.</span><br><span class="zh">所有孩子都有权过上幸福的生活。</span></div>
+  <div class="line"><span class="es">¡Es necesario proteger a todos los niños porque son el futuro!</span><br><span class="zh">必须保护所有的孩子，因为他们是我们的未来！</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Qué ideas tienes para celebrar el Día del Niño?</span><br><span class="zh">你呢？你有什么想法来庆祝儿童节吗？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy.</span><br><span class="zh">好啦，今天就讲到这里。</span></div>
+  <div class="line"><span class="es">¡Vamos a celebrar a los niños y a defender sus derechos!</span><br><span class="zh">让我们一起庆祝孩子们，捍卫他们的权利！</span></div>
+  <div class="line"><span class="es">¡Hasta la próxima!</span><br><span class="zh">下次再见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter5">
+  <h2>第5课：Cinco de Mayo 五月五日</h2>
+
+  <div class="line"><span class="es">¡Hola amigos! ¿Cómo están? Yo estoy muy bien.</span><br><span class="zh">你好，朋友们！你们好吗？我很好。</span></div>
+  <div class="line"><span class="es">Bienvenidos a ¡Cuéntame!, un pódcast para la adquisición del español.</span><br><span class="zh">欢迎收听《Cuéntame》，一个帮助学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Soy Marta, y hoy vamos a hablar del Cinco de Mayo.</span><br><span class="zh">我是玛尔塔，今天我们来讲讲“Cinco de Mayo”（五月五日）。</span></div>
+  <div class="line"><span class="es">Cinco de mayo es 5th of May en inglés, y, obvio, se celebra el día cinco de mayo.</span><br><span class="zh">Cinco de Mayo 在英语中是“五月五日”，显然，它是在5月5日这天庆祝的。</span></div>
+  <div class="line"><span class="es">Pero, ¿qué celebramos?</span><br><span class="zh">但，我们究竟在庆祝什么呢？</span></div>
+  <div class="line"><span class="es">Muchas personas piensan que el Cinco de Mayo es la celebración del día de la Independencia de México.</span><br><span class="zh">很多人以为 Cinco de Mayo 是墨西哥独立日的庆祝。</span></div>
+  <div class="line"><span class="es">Pero, no. Esa información no es correcta.</span><br><span class="zh">但并不是这样。这个说法不正确。</span></div>
+  <div class="line"><span class="es">El Cinco de Mayo no es el día de la independencia de México.</span><br><span class="zh">Cinco de Mayo 并不是墨西哥独立日。</span></div>
+  <div class="line"><span class="es">El cinco de mayo celebramos la victoria de México en una batalla muy importante: la batalla de Puebla.</span><br><span class="zh">五月五日我们是在庆祝墨西哥在一场非常重要的战役——普埃布拉战役中取得的胜利。</span></div>
+  <div class="line"><span class="es">Esta batalla ocurrió en 1862 en Puebla, México.</span><br><span class="zh">这场战役发生在1862年的墨西哥普埃布拉。</span></div>
+  <div class="line"><span class="es">Francia quería invadir México. Las tropas francesas eran muy fuertes.</span><br><span class="zh">法国当时想要入侵墨西哥，法国军队非常强大。</span></div>
+  <div class="line"><span class="es">Las tropas mexicanas no eran muy fuertes, pero… ¡Sorpresa! México ganó la batalla.</span><br><span class="zh">墨西哥军队并不强大，但……惊喜来了！墨西哥赢得了这场战役。</span></div>
+  <div class="line"><span class="es">Por esa razón, el Cinco de Mayo es una celebración muy especial.</span><br><span class="zh">因此，Cinco de Mayo 是一个非常特别的节日。</span></div>
+  <div class="line"><span class="es">La parte triste, es que Francia atacó otra vez y ganó.</span><br><span class="zh">但令人难过的是，法国后来再次发起攻击，并赢了。</span></div>
+  <div class="line"><span class="es">México formó parte del Imperio Francés por aproximadamente tres años.</span><br><span class="zh">墨西哥曾作为法国帝国的一部分，持续了大约三年。</span></div>
+  <div class="line"><span class="es">¡Hoy vamos a celebrar la victoria de México!</span><br><span class="zh">今天我们要庆祝墨西哥的胜利！</span></div>
+  <div class="line"><span class="es">¡Vamos a celebrar la Batalla de Puebla!</span><br><span class="zh">我们要庆祝普埃布拉战役！</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy.</span><br><span class="zh">好啦，今天就到这里。</span></div>
+  <div class="line"><span class="es">¡Hasta la próxima! Y, ¡Viva México!</span><br><span class="zh">下次见！墨西哥万岁！</span></div>
+</div>
+
+    <div class="chapter" id="chapter6">
+  <h2>第6课：El estrés 压力</h2>
+
+  <div class="line"><span class="es">Hola, amigos ¿qué tal?</span><br><span class="zh">你好，朋友们，最近怎样？</span></div>
+  <div class="line"><span class="es">Bienvenidos a ¡Cuéntame!, un pódcast para la adquisición del español.</span><br><span class="zh">欢迎收听《Cuéntame》，一个帮助学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Soy Marta, y hoy vamos a hablar del estrés.</span><br><span class="zh">我是玛尔塔，今天我们要谈谈“压力”。</span></div>
+  <div class="line"><span class="es">El mundo es muy bonito, es un lugar con oportunidades extraordinarias.</span><br><span class="zh">世界是美丽的，它是一个充满非凡机会的地方。</span></div>
+  <div class="line"><span class="es">Pero, la realidad es que también hay muchas situaciones tristes;</span><br><span class="zh">但现实中，也有很多让人难过的情况；</span></div>
+  <div class="line"><span class="es">hay muchas situaciones que causan estrés o depresión.</span><br><span class="zh">有很多情境会引起压力或抑郁。</span></div>
+  <div class="line"><span class="es">Por ejemplo, hay problemas económicos, o de dinero.</span><br><span class="zh">比如说，有经济问题，或者金钱方面的问题。</span></div>
+  <div class="line"><span class="es">Es un problema muy serio.</span><br><span class="zh">这是个非常严重的问题。</span></div>
+  <div class="line"><span class="es">Muchas personas tienen problemas de dinero, y eso les causa estrés.</span><br><span class="zh">很多人都有金钱上的困难，这会让他们感到压力山大。</span></div>
+  <div class="line"><span class="es">Hay también problemas políticos.</span><br><span class="zh">还有政治问题。</span></div>
+  <div class="line"><span class="es">Hay mucha división en la sociedad a causa de los problemas políticos,</span><br><span class="zh">因为政治问题，社会分裂很严重，</span></div>
+  <div class="line"><span class="es">y eso causa estrés en las relaciones.</span><br><span class="zh">这也会导致人际关系紧张。</span></div>
+  <div class="line"><span class="es">También hay problemas con la familia, problemas de trabajo, con los amigos…</span><br><span class="zh">还有家庭问题、工作问题、朋友之间的问题……</span></div>
+  <div class="line"><span class="es">o con la pareja romántica.</span><br><span class="zh">或者与恋人的问题。</span></div>
+  <div class="line"><span class="es">Los problemas con la pareja romántica pueden causar una profunda depresión.</span><br><span class="zh">和恋人的问题可能会引发深度抑郁。</span></div>
+  <div class="line"><span class="es">El amor, love, ¡es un tema muy complicado!</span><br><span class="zh">爱情是一个非常复杂的话题！</span></div>
+  <div class="line"><span class="es">En fin, lo más importante es mantener una actitud positiva frente al estrés.</span><br><span class="zh">总之，面对压力，最重要的是保持积极的态度。</span></div>
+  <div class="line"><span class="es">Hay diferentes estrategias para calmar el estrés.</span><br><span class="zh">有各种策略可以帮助缓解压力。</span></div>
+  <div class="line"><span class="es">Por ejemplo, la meditación.</span><br><span class="zh">比如冥想。</span></div>
+  <div class="line"><span class="es">Practicar la meditación ayuda mucho a controlar el estrés.</span><br><span class="zh">练习冥想对控制压力非常有帮助。</span></div>
+  <div class="line"><span class="es">También es buena idea buscar la ayuda de un terapista, o psicólogo.</span><br><span class="zh">向治疗师或心理医生寻求帮助也是个不错的主意。</span></div>
+  <div class="line"><span class="es">Es muy importante buscar ayuda cuando la necesitamos.</span><br><span class="zh">在我们需要的时候寻求帮助非常重要。</span></div>
+  <div class="line"><span class="es">Otra estrategia para controlar el estrés es mantenerse activo.</span><br><span class="zh">另一个缓解压力的方法是保持活跃。</span></div>
+  <div class="line"><span class="es">Practicar deportes y hacer ejercicio ayuda muchísimo.</span><br><span class="zh">做运动和锻炼身体非常有效。</span></div>
+  <div class="line"><span class="es">También, ¡jugar con las mascotas es una terapia excelente!</span><br><span class="zh">而且，和宠物玩耍是非常棒的疗法！</span></div>
+  <div class="line"><span class="es">Por ejemplo, cuando yo tengo estrés, juego con mi perrita, Mila y me siento mejor.</span><br><span class="zh">比如说，当我感到有压力时，我会和我的小狗米拉玩耍，我就会感觉好多了。</span></div>
+  <div class="line"><span class="es">Me gusta tirarle un frisbee y también una bola de tenis.</span><br><span class="zh">我喜欢扔飞盘或网球给她。</span></div>
+  <div class="line"><span class="es">¡Pasar tiempo con Mila, mi perrita, es una actividad que me relaja mucho!</span><br><span class="zh">和我的小狗米拉共度时光是一项让我非常放松的活动！</span></div>
+  <div class="line"><span class="es">Pero, lo más importante, es tener paciencia y mantener una actitud positiva.</span><br><span class="zh">但最重要的是，要有耐心，并保持积极的态度。</span></div>
+  <div class="line"><span class="es">Piensa que los problemas eventualmente pasarán.</span><br><span class="zh">要相信问题终将会过去。</span></div>
+  <div class="line"><span class="es">¡Los problemas no son eternos!</span><br><span class="zh">问题不是永远的！</span></div>
+  <div class="line"><span class="es">No permitas que el estrés domine tu vida.</span><br><span class="zh">不要让压力主宰你的生活。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Qué estrategias tienes para controlar el estrés?</span><br><span class="zh">你呢？你有什么方法来应对压力？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy. ¡Hasta pronto!</span><br><span class="zh">好了，今天就到这里。再见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter7">
+  <h2>第7课：El Día de las Madres 母亲节</h2>
+
+  <div class="line"><span class="es">¡Buenos días, amigos!</span><br><span class="zh">早上好，朋友们！</span></div>
+  <div class="line"><span class="es">Están escuchando ¡Cuéntame!, un pódcast para la adquisición del español.</span><br><span class="zh">你正在收听《Cuéntame》，一个学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Me llamo Marta, y hoy voy a hablar del Día de las Madres.</span><br><span class="zh">我叫玛尔塔，今天我要讲的是母亲节。</span></div>
+  <div class="line"><span class="es">En Estados Unidos y otros países del mundo,</span><br><span class="zh">在美国和世界其他国家，</span></div>
+  <div class="line"><span class="es">el Día de las Madres se celebra el segundo domingo de mayo.</span><br><span class="zh">母亲节是在五月的第二个星期日庆祝的。</span></div>
+  <div class="line"><span class="es">Pero, en México no.</span><br><span class="zh">但在墨西哥不是这样。</span></div>
+  <div class="line"><span class="es">En México celebramos el Día de las Madres siempre en la misma fecha.</span><br><span class="zh">在墨西哥，母亲节永远是同一个日期。</span></div>
+  <div class="line"><span class="es">Siempre celebramos el Día de las Madres el 10 de mayo.</span><br><span class="zh">我们总是在5月10日庆祝母亲节。</span></div>
+  <div class="line"><span class="es">Por ejemplo, en los dos países las mamás reciben regalos o presentes de su familia.</span><br><span class="zh">例如，在这两个国家，妈妈们都会收到家人的礼物或小礼品。</span></div>
+  <div class="line"><span class="es">Algunos regalos populares son flores y chocolates,</span><br><span class="zh">一些受欢迎的礼物是鲜花和巧克力，</span></div>
+  <div class="line"><span class="es">pero lo más importante es dedicarles tiempo.</span><br><span class="zh">但最重要的是陪伴她们的时间。</span></div>
+  <div class="line"><span class="es">¡Pasar tiempo en familia es el regalo más importante!</span><br><span class="zh">家庭相聚才是最重要的礼物！</span></div>
+  <div class="line"><span class="es">Yo vivo en EE. UU. y mi mamá vive en México,</span><br><span class="zh">我住在美国，而我的妈妈住在墨西哥，</span></div>
+  <div class="line"><span class="es">por eso no me es posible pasar tiempo con ella.</span><br><span class="zh">所以我无法与她一起度过这一天。</span></div>
+  <div class="line"><span class="es">Entonces, para celebrar a mi mamá, yo le mando flores.</span><br><span class="zh">于是，为了庆祝母亲节，我会寄花给妈妈。</span></div>
+  <div class="line"><span class="es">¡Me gusta mandarle las flores a su trabajo!</span><br><span class="zh">我喜欢把花送到她的工作单位！</span></div>
+  <div class="line"><span class="es">En este momento, mi mamá no va a su trabajo a causa de la pandemia del coronavirus,</span><br><span class="zh">现在由于新冠疫情，我妈妈没有去上班，</span></div>
+  <div class="line"><span class="es">por eso, este año yo voy a mandarle flores a su casa, no a su trabajo.</span><br><span class="zh">所以今年我要把花寄到她家里，而不是她的工作单位。</span></div>
+  <div class="line"><span class="es">Tradicionalmente, en México las escuelas hacen festivales para celebrar a las mamás.</span><br><span class="zh">在墨西哥，传统上，学校会举办庆祝母亲节的活动。</span></div>
+  <div class="line"><span class="es">Yo recuerdo los festivales del Día de las Madres cuando yo era niña.</span><br><span class="zh">我还记得我小时候的母亲节庆典。</span></div>
+  <div class="line"><span class="es">Tengo memorias muy dulces con mi mamá en los festivales de mi escuela.</span><br><span class="zh">在学校的庆典里，我和妈妈有很多甜蜜的回忆。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Cómo celebras a tu mamá en el Día de las Madres?</span><br><span class="zh">你呢？你是如何庆祝母亲节的？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy.</span><br><span class="zh">好了，今天就到这里。</span></div>
+  <div class="line"><span class="es">¡Gracias por escuchar mi pódcast! y, ¡feliz Día de las Madres!</span><br><span class="zh">感谢你收听我的播客！祝你母亲节快乐！</span></div>
+</div>
+
+    <div class="chapter" id="chapter8">
+  <h2>第8课：La importancia de los lenguajes 语言的重要性</h2>
+
+  <div class="line"><span class="es">¡Hola amigos! ¿Qué tal? Esto es ¡Cuéntame!, un podcast para la adquisición del español.</span><br><span class="zh">你好，朋友们！你们怎么样？这里是《Cuéntame》，一个用于学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Me llamo Marta, y hoy estoy muy feliz porque tengo una visita muy especial.</span><br><span class="zh">我叫玛尔塔，今天我非常开心，因为我有一位特别的来访者。</span></div>
+  <div class="line"><span class="es">Mi sobrina Isaura está visitándome en WI.</span><br><span class="zh">我侄女伊萨乌拉正在威斯康星州看我。</span></div>
+  <div class="line"><span class="es">A causa de la pandemia del coronavirus, mi sobrina Isaura trabaja virtualmente,</span><br><span class="zh">因为新冠疫情，我的侄女伊萨乌拉是远程工作的，</span></div>
+  <div class="line"><span class="es">por eso, es posible que ella me visite en WI.</span><br><span class="zh">因此她能来看我。</span></div>
+  <div class="line"><span class="es">Marta: ¡Hola, Isaura! ¿Cómo estás?</span><br><span class="zh">玛尔塔：你好，伊萨乌拉！你好吗？</span></div>
+  <div class="line"><span class="es">Isaura: ¡Hola tía! Bien, ¿y tú? ¿Cómo estás?</span><br><span class="zh">伊萨乌拉：你好，姨妈！我很好，你呢？你好吗？</span></div>
+  <div class="line"><span class="es">Marta: Estoy muy feliz por tu visita. Me gusta que me visites en WI.</span><br><span class="zh">玛尔塔：你来看我我很高兴。我很喜欢你来威斯康星看我。</span></div>
+  <div class="line"><span class="es">Oye, vamos a hablar de los lenguajes y su importancia, ¿no?</span><br><span class="zh">听着，我们来聊聊语言及其重要性，好吗？</span></div>
+  <div class="line"><span class="es">Isaura: ¡Perfecto!</span><br><span class="zh">伊萨乌拉：太好了！</span></div>
+  <div class="line"><span class="es">Marta: Yo hablo dos lenguajes. Yo hablo inglés, español, y ¡estoy estudiando francés!</span><br><span class="zh">玛尔塔：我会两种语言。我会英语、西班牙语，而且我正在学习法语！</span></div>
+  <div class="line"><span class="es">Ya estoy en nivel intermedio. ¿Y tú? ¿Cuántos lenguajes hablas?</span><br><span class="zh">我已经达到中级水平了。你呢？你会几种语言？</span></div>
+  <div class="line"><span class="es">Isaura: Yo hablo tres lenguajes, tía.</span><br><span class="zh">伊萨乌拉：姨妈，我会三种语言。</span></div>
+  <div class="line"><span class="es">Hablo alemán, inglés y, obviamente, español porque soy mexicana, como tú.</span><br><span class="zh">我会德语、英语，当然还有西班牙语，因为我是墨西哥人，和你一样。</span></div>
+  <div class="line"><span class="es">Marta: Y has vivido en otro país aparte de México, ¿verdad?</span><br><span class="zh">玛尔塔：你还在墨西哥以外的国家生活过，对吧？</span></div>
+  <div class="line"><span class="es">Isaura: Sí, viví en Alemania dos años. Fui estudiante en Alemania.</span><br><span class="zh">伊萨乌拉：是的，我在德国生活了两年。我在德国当学生。</span></div>
+  <div class="line"><span class="es">Viví en Alemania porque me interesaba mucho aprender alemán.</span><br><span class="zh">我住在德国，是因为我对学习德语非常感兴趣。</span></div>
+  <div class="line"><span class="es">Marta: ¡Qué interesante!</span><br><span class="zh">玛尔塔：真有趣！</span></div>
+  <div class="line"><span class="es">Oye, ¿qué ventajas tiene hablar otros lenguajes?</span><br><span class="zh">那你觉得，会说多种语言有什么优势？</span></div>
+  <div class="line"><span class="es">Isaura: Gracias a los lenguajes, tengo muchos amigos por el mundo, y dos familias en Alemania.</span><br><span class="zh">多亏了语言，我在世界各地都有朋友，在德国还有两个家庭。</span></div>
+  <div class="line"><span class="es">Es muy bonito hablar con ellos en alemán y en inglés.</span><br><span class="zh">能用德语和英语与他们交流真的很美好。</span></div>
+  <div class="line"><span class="es">Marta: ¡Qué padre!</span><br><span class="zh">玛尔塔：太酷了！</span></div>
+  <div class="line"><span class="es">Y ¿en la vida profesional? ¿Es un beneficio hablar tres lenguajes?</span><br><span class="zh">那在职业生活中呢？会说三种语言有优势吗？</span></div>
+  <div class="line"><span class="es">Isaura: ¡Claro! Yo trabajo en una compañía internacional.</span><br><span class="zh">当然啦！我在一家国际公司工作。</span></div>
+  <div class="line"><span class="es">En la entrevista de trabajo, hablar tres lenguajes fue una ventaja decisiva.</span><br><span class="zh">在面试中，会说三种语言是一个决定性的优势。</span></div>
+  <div class="line"><span class="es">Hablar tres lenguajes me ayudó a obtener el trabajo.</span><br><span class="zh">会说三种语言帮助我得到了这份工作。</span></div>
+  <div class="line"><span class="es">Marta: ¡Excelente! Gracias por compartir tu experiencia con nosotros. Te quiero muchísimo. ¡Regresa pronto!</span><br><span class="zh">玛尔塔：太棒了！谢谢你和我们分享你的经历。我非常爱你！快点再来！</span></div>
+  <div class="line"><span class="es">Isaura: Me encanta la idea. ¡Hasta pronto! Y en alemán: bis bald!</span><br><span class="zh">伊萨乌拉：我很喜欢这个主意。再见！用德语说是：bis bald！</span></div>
+</div>
+
+    <div class="chapter" id="chapter9">
+  <h2>第9课：Una realidad del inmigrante 移民的现实</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Bienvenidos a ¡Cuéntame!, un podcast para la adquisición del español.</span><br><span class="zh">你好，你好！欢迎收听《Cuéntame》，一个用于学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Soy Marta, y hoy quiero hablarles de un tema muy personal y también complicado.</span><br><span class="zh">我是玛尔塔，今天我想和大家聊一个非常私人也很复杂的话题。</span></div>
+  <div class="line"><span class="es">Soy inmigrante mexicana.</span><br><span class="zh">我是墨西哥移民。</span></div>
+  <div class="line"><span class="es">Vivo en Estados Unidos desde 1999.</span><br><span class="zh">我自1999年起就住在美国。</span></div>
+  <div class="line"><span class="es">Me gusta mucho mi vida en Wisconsin. Vivo con mi esposo Keith y mi perrita Mila.</span><br><span class="zh">我非常喜欢我在威斯康星州的生活。我和丈夫基思、小狗米拉一起生活。</span></div>
+  <div class="line"><span class="es">Me encanta ayudar a mis estudiantes a aprender español.</span><br><span class="zh">我热爱帮助我的学生学习西班牙语。</span></div>
+  <div class="line"><span class="es">Pero, también extraño todo de mi México.</span><br><span class="zh">但我也非常想念我的墨西哥。</span></div>
+  <div class="line"><span class="es">Extraño a mi familia, mis amigos, la comida auténtica mexicana.</span><br><span class="zh">我想念家人、朋友，还有正宗的墨西哥食物。</span></div>
+  <div class="line"><span class="es">En Wisconsin hay restaurantes mexicanos, pero no es lo mismo.</span><br><span class="zh">在威斯康星也有墨西哥餐厅，但感觉不同。</span></div>
+  <div class="line"><span class="es">Visito México en los veranos.</span><br><span class="zh">我会在夏天回墨西哥探亲。</span></div>
+  <div class="line"><span class="es">Mis amigos y yo viajamos por México.</span><br><span class="zh">我和朋友们会在墨西哥旅行。</span></div>
+  <div class="line"><span class="es">Pero cuando estoy en México, extraño Wisconsin.</span><br><span class="zh">但当我在墨西哥时，我又会想念威斯康星。</span></div>
+  <div class="line"><span class="es">Extraño a Keith, a Mila, mis estudiantes y mi casa en WI.</span><br><span class="zh">我想念基思、米拉、我的学生和威斯康星的家。</span></div>
+  <div class="line"><span class="es">Y cuando estoy en WI, extraño mi casa en México.</span><br><span class="zh">而当我在威斯康星时，我又会想念我在墨西哥的家。</span></div>
+  <div class="line"><span class="es">¡Qué complicado!</span><br><span class="zh">真是复杂啊！</span></div>
+  <div class="line"><span class="es">Supongo que es la realidad del inmigrante.</span><br><span class="zh">我想，这就是移民的现实。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Qué extrañas cuando estás lejos de tu casa?</span><br><span class="zh">你呢？当你远离家的时候，你会想念什么？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy. ¡Gracias por escucharme!</span><br><span class="zh">好了，今天就到这里。谢谢你听我分享！</span></div>
+  <div class="line"><span class="es">¡Hasta pronto!</span><br><span class="zh">下次见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter10">
+  <h2>第10课：Las quinceañeras - Parte 1 十五岁女孩 - 第一部分</h2>
+
+  <div class="line"><span class="es">¡Hola amigos! ¿Qué tal?</span><br><span class="zh">你好，朋友们！你们好吗？</span></div>
+  <div class="line"><span class="es">Esto es ¡Cuéntame!, un podcast para la adquisición del español.</span><br><span class="zh">这里是《Cuéntame》，一个帮助你学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Me llamo Marta, y hoy voy a hablar de las quinceañeras.</span><br><span class="zh">我叫玛尔塔，今天我要讲的是“十五岁女孩”。</span></div>
+  <div class="line"><span class="es">Una quinceañera es una chica que tiene quince años de edad.</span><br><span class="zh">“Quinceañera”是指一个十五岁的女孩。</span></div>
+  <div class="line"><span class="es">Muchas personas piensan que la fiesta se llama quinceañera.</span><br><span class="zh">很多人以为“quinceañera”是生日派对的名字。</span></div>
+  <div class="line"><span class="es">Pero eso no es correcto.</span><br><span class="zh">但这是不正确的。</span></div>
+  <div class="line"><span class="es">Una quinceañera es la persona, no la fiesta.</span><br><span class="zh">“Quinceañera”是指这个人，而不是派对。</span></div>
+  <div class="line"><span class="es">La fiesta se llama fiesta de quince, o simplemente los quince.</span><br><span class="zh">这个庆典叫做“十五岁派对”或简称“十五”。</span></div>
+  <div class="line"><span class="es">En muchos países de Latinoamérica, es tradición celebrar a las quinceañeras con un evento muy formal.</span><br><span class="zh">在许多拉丁美洲国家，庆祝 quinceañera 是一个非常正式的传统活动。</span></div>
+  <div class="line"><span class="es">La tradición tiene su origen con los aztecas y los mayas.</span><br><span class="zh">这个传统起源于阿兹特克人和玛雅人。</span></div>
+  <div class="line"><span class="es">Ellos celebraban rituales para marcar la transición de las niñas a la vida adulta.</span><br><span class="zh">他们举行仪式来标志女孩从童年迈向成年。</span></div>
+  <div class="line"><span class="es">Después, cuando los españoles conquistaron México, incorporaron la misa católica.</span><br><span class="zh">后来西班牙人征服墨西哥后，加入了天主教弥撒。</span></div>
+  <div class="line"><span class="es">En el siglo XIX, México era parte de Francia, y tenía un emperador: Maximiliano.</span><br><span class="zh">19世纪时，墨西哥成为法国的一部分，并拥有一位皇帝：马克西米连诺。</span></div>
+  <div class="line"><span class="es">Su esposa se llamaba Carlota.</span><br><span class="zh">他的妻子叫卡洛塔。</span></div>
+  <div class="line"><span class="es">En Europa era muy popular bailar el vals y usar vestidos de princesa.</span><br><span class="zh">在欧洲，跳华尔兹和穿公主裙非常流行。</span></div>
+  <div class="line"><span class="es">Maximiliano y Carlota introdujeron estas tradiciones a las fiestas de quince.</span><br><span class="zh">马克西米连诺和卡洛塔把这些传统带入了十五岁派对。</span></div>
+  <div class="line"><span class="es">Por eso, hoy las quinceañeras usan vestidos de princesa y bailan el vals.</span><br><span class="zh">因此，如今 quinceañeras 会穿公主裙并跳华尔兹。</span></div>
+  <div class="line"><span class="es">Así que, en este episodio hablamos del origen de la fiesta.</span><br><span class="zh">所以在本集我们讲的是派对的起源。</span></div>
+  <div class="line"><span class="es">En el próximo episodio vamos a hablar de los rituales tradicionales.</span><br><span class="zh">下一集我们将讲庆典中的传统仪式。</span></div>
+  <div class="line"><span class="es">¡Hasta pronto!</span><br><span class="zh">下次见！</span></div>
+</div>
+
+    <div class="chapter" id="chapter11">
+  <h2>第11课：Los desastres naturales 自然灾害</h2>
+
+  <div class="line"><span class="es">¡Hola! Bienvenidos a ¡Cuéntame!, un podcast para la adquisición del español.</span><br><span class="zh">你好！欢迎来到《Cuéntame》，一个帮助你学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Soy Marta, y hoy voy a hablar de desastres naturales.</span><br><span class="zh">我是玛尔塔，今天我来讲讲自然灾害。</span></div>
+  <div class="line"><span class="es">Hay muchos tipos de desastres.</span><br><span class="zh">自然灾害有很多种类。</span></div>
+  <div class="line"><span class="es">Por ejemplo, los incendios, causados por la deforestación y el calentamiento global.</span><br><span class="zh">比如火灾，是由森林砍伐和全球变暖引起的。</span></div>
+  <div class="line"><span class="es">Muchos animales y personas mueren a causa de los incendios.</span><br><span class="zh">很多动物和人因此死亡。</span></div>
+  <div class="line"><span class="es">El daño al planeta es terrible.</span><br><span class="zh">对地球造成的破坏是巨大的。</span></div>
+  <div class="line"><span class="es">También hay tormentas y huracanes,</span><br><span class="zh">还有风暴和飓风，</span></div>
+  <div class="line"><span class="es">como el huracán Katrina que devastó Nueva Orleans en el 2005.</span><br><span class="zh">比如2005年毁灭新奥尔良的卡特里娜飓风。</span></div>
+  <div class="line"><span class="es">Cuando yo era niña, hubo un terremoto terrible en México.</span><br><span class="zh">我小时候，墨西哥发生了一次可怕的地震。</span></div>
+  <div class="line"><span class="es">Fue el 19 de septiembre de 1985 a las 7:19 de la mañana.</span><br><span class="zh">1985年9月19日早上7:19。</span></div>
+  <div class="line"><span class="es">Muchas personas en México se despertaron con el terremoto.</span><br><span class="zh">很多人是在地震中醒来的。</span></div>
+  <div class="line"><span class="es">Yo estaba en la escuela, en mi clase de Ciencias Sociales.</span><br><span class="zh">我当时在学校，正在上社会科学课。</span></div>
+  <div class="line"><span class="es">Mis amigos se levantaron y trataron de escapar.</span><br><span class="zh">我的朋友们跳起来试图逃跑。</span></div>
+  <div class="line"><span class="es">Una estudiante se desmayó del miedo.</span><br><span class="zh">有一位学生因为害怕晕倒了。</span></div>
+  <div class="line"><span class="es">Los papás llegaron muy preocupados.</span><br><span class="zh">家长们赶来，非常担心。</span></div>
+  <div class="line"><span class="es">Por suerte, en mi escuela no hubo víctimas.</span><br><span class="zh">幸运的是，我的学校里没有人伤亡。</span></div>
+  <div class="line"><span class="es">Pero hubo mucha devastación en la ciudad.</span><br><span class="zh">但在城市里却有严重破坏。</span></div>
+  <div class="line"><span class="es">El hospital local se colapsó.</span><br><span class="zh">当地医院倒塌了。</span></div>
+  <div class="line"><span class="es">Los médicos improvisaron una sala de emergencias.</span><br><span class="zh">医生们临时搭建了急救室。</span></div>
+  <div class="line"><span class="es">Muchas casas también se colapsaron.</span><br><span class="zh">许多房屋也倒塌了。</span></div>
+  <div class="line"><span class="es">El daño más grande ocurrió en la Ciudad de México.</span><br><span class="zh">最大破坏发生在墨西哥城。</span></div>
+  <div class="line"><span class="es">Los edificios se colapsaron cuando las personas dormían.</span><br><span class="zh">建筑倒塌时人们还在睡觉。</span></div>
+  <div class="line"><span class="es">No fue posible escapar. Hubo muchas muertes.</span><br><span class="zh">人们来不及逃生，死亡很多。</span></div>
+  <div class="line"><span class="es">Pero muchos valientes ayudaron a rescatar víctimas atrapadas.</span><br><span class="zh">但很多勇敢的人组织起来救人。</span></div>
+  <div class="line"><span class="es">El terremoto causó más de 10,000 muertes.</span><br><span class="zh">这场地震导致超过一万人死亡。</span></div>
+  <div class="line"><span class="es">Fue devastador, pero también unió a los mexicanos.</span><br><span class="zh">这是毁灭性的，但也让墨西哥人团结在一起。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Has experimentado un desastre natural?</span><br><span class="zh">你呢？你经历过自然灾害吗？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy. ¡Gracias por escuchar!</span><br><span class="zh">好了，这就是今天的全部内容。感谢收听！</span></div>
+</div>
+
+    <div class="chapter" id="chapter12">
+  <h2>第12课：Las quinceañeras - Parte 2 十五岁女孩 - 第二部分</h2>
+
+  <div class="line"><span class="es">¡Hola, hola! Bienvenidos a ¡Cuéntame!, un podcast para la adquisición del español.</span><br><span class="zh">你好，你好！欢迎收听《Cuéntame》，一个帮助你学习西班牙语的播客。</span></div>
+  <div class="line"><span class="es">Me llamo Marta, y este es el segundo episodio sobre las quinceañeras.</span><br><span class="zh">我叫玛尔塔，这是关于 quinceañeras 的第二集。</span></div>
+  <div class="line"><span class="es">En el episodio pasado hablamos del origen de la celebración.</span><br><span class="zh">在上一集中我们讲了这个节日的起源。</span></div>
+  <div class="line"><span class="es">Hoy vamos a hablar de los rituales tradicionales.</span><br><span class="zh">今天我们来说说传统仪式。</span></div>
+  <div class="line"><span class="es">En México y otros países latinoamericanos, es tradicional tener una misa católica para bendecir a la quinceañera.</span><br><span class="zh">在墨西哥和其他拉美国家，传统上会有一场天主教弥撒来祝福 quinceañera。</span></div>
+  <div class="line"><span class="es">Después de la misa hay una recepción o una fiesta.</span><br><span class="zh">弥撒结束后，会有接待或派对。</span></div>
+  <div class="line"><span class="es">Una tradición muy importante es el vals.</span><br><span class="zh">一个很重要的传统是跳华尔兹。</span></div>
+  <div class="line"><span class="es">La quinceañera baila con su papá y también con otros familiares.</span><br><span class="zh">quinceañera 会和父亲以及其他亲戚跳舞。</span></div>
+  <div class="line"><span class="es">En muchas fiestas también hay una ceremonia del cambio de zapatos.</span><br><span class="zh">很多派对上也有换鞋仪式。</span></div>
+  <div class="line"><span class="es">La quinceañera cambia sus zapatos bajos por unos zapatos de tacón.</span><br><span class="zh">quinceañera 会把平底鞋换成高跟鞋。</span></div>
+  <div class="line"><span class="es">Este cambio simboliza la transición de niña a mujer.</span><br><span class="zh">这种转换象征着从女孩到女人的转变。</span></div>
+  <div class="line"><span class="es">En muchas fiestas, la quinceañera también recibe su última muñeca.</span><br><span class="zh">在很多派对中，quinceañera 还会收到她的“最后一个洋娃娃”。</span></div>
+  <div class="line"><span class="es">Ella puede regalar la muñeca a una niña más joven.</span><br><span class="zh">她可以把这个娃娃送给年纪更小的女孩。</span></div>
+  <div class="line"><span class="es">Es una forma de decir adiós a la niñez.</span><br><span class="zh">这是一种告别童年的方式。</span></div>
+  <div class="line"><span class="es">Las fiestas pueden ser muy elaboradas, con muchos invitados y decoraciones.</span><br><span class="zh">这种派对可以非常隆重，有很多宾客和装饰。</span></div>
+  <div class="line"><span class="es">Otras familias prefieren celebraciones más pequeñas.</span><br><span class="zh">有些家庭则更喜欢小型的庆祝活动。</span></div>
+  <div class="line"><span class="es">Lo más importante es celebrar el crecimiento y el paso hacia la adultez.</span><br><span class="zh">最重要的是庆祝成长和迈向成年的过程。</span></div>
+  <div class="line"><span class="es">¿Y tú? ¿Conoces alguna tradición parecida en tu cultura?</span><br><span class="zh">你呢？在你的文化中有没有类似的传统？</span></div>
+  <div class="line"><span class="es">Bueno, eso es todo por hoy. ¡Hasta la próxima!</span><br><span class="zh">好了，今天就到这里。下次再见！</span></div>
+</div>
+
+ <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTopBtn" onclick="scrollToTop()">回到顶部</button>
+
+    <script>
+        // 获取按钮元素
+        const backToTopBtn = document.getElementById("backToTopBtn");
+
+        // 当页面滚动时，显示或隐藏按钮
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopBtn.style.display = "block"; // 显示按钮
+            } else {
+                backToTopBtn.style.display = "none"; // 隐藏按钮
+            }
+        };
+
+        // 当点击按钮时，滚动到页面最开始（顶部）
+        function scrollToTop() {
+            window.scrollTo({ top: 10, behavior: "auto" });
+        }
+    </script>
+
+</body>
+</html>
